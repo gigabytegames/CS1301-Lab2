@@ -108,7 +108,7 @@ st.header("Space Exploration Survey 🌌")
 
 
 # Check whether survey data exists
-if os.path.exists("Lab2_WebDev_Salman/data.csv") and os.path.getsize("Lab2_WebDev_Salman/Lab2_WebDev_Salman/data.csv") > 0:
+if os.path.exists("Lab2_WebDev_Salman/data.csv") and os.path.getsize("Lab2_WebDev_Salman/data.csv") > 0:
 
     # Read survey data
     survey_data = pd.read_csv("Lab2_WebDev_Salman/data.csv")
