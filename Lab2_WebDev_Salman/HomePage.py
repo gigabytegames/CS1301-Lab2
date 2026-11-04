@@ -35,4 +35,4 @@ This project is part of CS 1301's Lab 2.
 # 2. Place your image file (e.g., 'welcome_image.png') inside that folder.
 # 3. Uncomment the line below and change the filename to match yours.
 #
-st.image("images/welcome_image.jpeg")
+st.image("Lab2_WebDev_Salman/images/welcome_image.jpeg")
