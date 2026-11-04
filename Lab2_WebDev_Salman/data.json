@@ -1,0 +1,53 @@
+
+{
+    "planets": [
+        {
+            "name": "Mercury",
+            "diameter_km": 4879,
+            "distance_from_sun_au": 0.39,
+            "orbital_period_days": 88
+        },
+        {
+            "name": "Venus",
+            "diameter_km": 12104,
+            "distance_from_sun_au": 0.72,
+            "orbital_period_days": 224.7
+        },
+        {
+            "name": "Earth",
+            "diameter_km": 12742,
+            "distance_from_sun_au": 1.00,
+            "orbital_period_days": 365.25
+        },
+        {
+            "name": "Mars",
+            "diameter_km": 6779,
+            "distance_from_sun_au": 1.52,
+            "orbital_period_days": 687
+        },
+        {
+            "name": "Jupiter",
+            "diameter_km": 139820,
+            "distance_from_sun_au": 5.20,
+            "orbital_period_days": 4333
+        },
+        {
+            "name": "Saturn",
+            "diameter_km": 116460,
+            "distance_from_sun_au": 9.58,
+            "orbital_period_days": 10759
+        },
+        {
+            "name": "Uranus",
+            "diameter_km": 50724,
+            "distance_from_sun_au": 19.2,
+            "orbital_period_days": 30687
+        },
+        {
+            "name": "Neptune",
+            "diameter_km": 49244,
+            "distance_from_sun_au": 30.05,
+            "orbital_period_days": 60190
+        }
+    ]
+}
