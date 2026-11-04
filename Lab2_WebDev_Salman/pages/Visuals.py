@@ -18,7 +18,7 @@ st.title("Data Visualizations 📈")
 # PART 1: GRAPHS FROM data.json
 # ==========================================
 
-with open("data.json", "r") as file:
+with open("Lab2_WebDev_Salman/data.json", "r") as file:
     data = json.load(file)
 
 planets = data["planets"]
@@ -108,10 +108,10 @@ st.header("Space Exploration Survey 🌌")
 
 
 # Check whether survey data exists
-if os.path.exists("data.csv") and os.path.getsize("data.csv") > 0:
+if os.path.exists("Lab2_WebDev_Salman/data.csv") and os.path.getsize("Lab2_WebDev_Salman/Lab2_WebDev_Salman/data.csv") > 0:
 
     # Read survey data
-    survey_data = pd.read_csv("data.csv")
+    survey_data = pd.read_csv("Lab2_WebDev_Salman/data.csv")
 
     # Convert Value column into numerical data
     survey_data["Value"] = pd.to_numeric(
