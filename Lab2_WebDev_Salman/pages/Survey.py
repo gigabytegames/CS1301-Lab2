@@ -46,10 +46,10 @@ with st.form("survey_form"):
 
         # Append the data to data.csv
         new_data.to_csv(
-            "data.csv",
+            "Lab2_WebDev_Salman/data.csv",
             mode="a",
             index=False,
-            header=not os.path.exists("data.csv") or os.path.getsize("data.csv") == 0
+            header=not os.path.exists("Lab2_WebDev_Salman/data.csv") or os.path.getsize("Lab2_WebDev_Salman/data.csv") == 0
         )
 
         st.success("Your data has been submitted!")
@@ -62,9 +62,9 @@ st.divider() # Adds a horizontal line for visual separation.
 st.header("Current Data in CSV")
 
 # Check if the CSV file exists and is not empty before trying to read it.
-if os.path.exists('data.csv') and os.path.getsize('data.csv') > 0:
+if os.path.exists('Lab2_WebDev_Salman/data.csv') and os.path.getsize('Lab2_WebDev_Salman/data.csv') > 0:
     # Read the CSV file into a pandas DataFrame.
-    current_data_df = pd.read_csv('data.csv')
+    current_data_df = pd.read_csv('Lab2_WebDev_Salman/data.csv')
     # Display the DataFrame as a table.
     st.dataframe(current_data_df)
 else:
